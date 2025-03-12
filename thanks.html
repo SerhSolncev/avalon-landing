@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="he">
+  <head>
+    <meta charset="utf-8">
+    <title>inner-page</title>
+    <meta name="description" content="inner-page">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link href="content/css/vendors.css" rel="stylesheet"><link href="content/css/app.css" rel="stylesheet"></head>
+  <body class="inner-page" data-scroll-container>
+    <div class="preloader">
+      <section class="section section--logo js-init" data-logo>
+        <div class="container">
+          <div class="logo-block">
+            <div class="title title--white title--ttu title--logo"><span> Avalon</span></div>
+            <div class="logo-block__body">
+              <div class="logo-block__logo">
+                <div class="part1 js-part1">
+                  <svg width="23" height="41" viewBox="0 0 23 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M19.4382 16.6982H22.3236L16.3487 30.2229L20.8081 40.3144H17.9153L15.3872 34.597L13.463 30.2238L13.4633 30.2229L13.3106 29.8776L10.0986 22.5775L10.1059 22.6283L8.67611 19.3942H5.52793L4.3437 16.6982H7.48113L3.24771 7.11317L1.68357 10.6421L0.244141 7.36514L3.24771 0.574219L14.906 26.9535L19.4382 16.6982ZM6.49432 21.5943L11.6276 33.2808L11.6103 33.1593L6.49432 21.5943Z" fill="#967852"></path>
+                  </svg>
+                </div>
+                <div class="part2 js-part2">
+                  <svg width="24" height="41" viewBox="0 0 24 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M23.3907 34.6119L21.4664 30.2386L19.8929 33.8052L19.6138 33.1742L19.6311 33.2957L14.4978 21.6092L13.5246 19.4091H13.5314L12.3472 16.7131H12.3296L9.67004 10.6954L9.68706 10.657L8.24763 7.38004L8.22732 7.42597L5.19615 0.574219H2.30343L6.77731 10.7029L0.365234 25.1958H3.25796L5.8155 19.4091H10.6246L19.8711 40.3293H19.8856L22.9022 33.5073L23.3907 34.6119ZM18.1094 22.6432L21.3141 29.8925L18.1021 22.5924L18.1094 22.6432ZM8.22732 13.9649L7.01777 16.7131H9.43687L8.22732 13.9649Z" fill="#967852"></path>
+                  </svg>
+                </div>
+                <div class="logo-block__video">
+                  <video class="logoVideo" loop="" playsinline="" preload="metadata" data-delay-video="" autoplay muted>
+                    <source src="content/images/pics/logo.mp4#t=0">
+                  </video>
+                </div>
+                <!--svg(width='112', height='77', viewBox='0 0 112 77', fill='none', xmlns='http://www.w3.org/2000/svg')-->
+                <!--    path(class="top-lg" d='M71.8585 16.6966H68.8658L64.177 27.3063L52.1157 0.0154099L48.9873 7.08855L45.8514 0H42.8587L47.4872 10.4787L40.8535 25.4726H43.8462L46.4921 19.4858H51.4674L61.0335 41.129H61.0486L64.1694 34.0713L67.2903 41.129H70.283L65.6695 30.6888L71.8509 16.6966H71.8585ZM52.1157 6.78035L56.4954 16.6966H53.2314L50.4799 10.471L52.1157 6.78035ZM47.736 16.6966L48.9873 13.8535L50.2387 16.6966H47.7284H47.736ZM61.0561 34.3795L54.4676 19.4858H57.7317L62.6844 30.6888L61.0561 34.3795Z', fill='#967852')-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+<header class="header js-header js-init" data-header>
+  <div class="container">
+    <div class="header__body">
+      <button class="burger">
+        <svg width="26" height="19" viewBox="0 0 26 19" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M0.25 1C0.25 0.585786 0.585786 0.25 1 0.25H24.3333C24.7475 0.25 25.0833 0.585786 25.0833 1C25.0833 1.41421 24.7475 1.75 24.3333 1.75H1C0.585786 1.75 0.25 1.41421 0.25 1Z"></path>
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M0.25 9.33203C0.25 8.91782 0.585786 8.58203 1 8.58203H24.3333C24.7475 8.58203 25.0833 8.91782 25.0833 9.33203C25.0833 9.74624 24.7475 10.082 24.3333 10.082H1C0.585786 10.082 0.25 9.74624 0.25 9.33203Z"></path>
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M0.25 17.6641C0.25 17.2498 0.585786 16.9141 1 16.9141H24.3333C24.7475 16.9141 25.0833 17.2498 25.0833 17.6641C25.0833 18.0783 24.7475 18.4141 24.3333 18.4141H1C0.585786 18.4141 0.25 18.0783 0.25 17.6641Z"></path>
+        </svg>
+      </button>
+      <div class="logo">
+        <svg width="37" height="48" viewBox="0 0 37 48" xmlns="http://www.w3.org/2000/svg">
+          <path d="M37 19.486H33.4286L27.8332 31.8681L13.4398 0.0179843L9.70654 8.27276L5.96426 0H2.3929L7.91636 12.2293L0 29.728H3.57136L6.7289 22.7411H12.6662L24.0819 48H24.0999L27.8242 39.7632L31.5485 48H35.1199L29.6144 35.8157L36.991 19.486H37ZM13.4398 7.91308L18.6664 19.486H14.7712L11.4877 12.2203L13.4398 7.91308ZM8.21322 19.486L9.70654 16.1679L11.1999 19.486H8.20423H8.21322ZM24.1089 40.1229L16.2465 22.7411H20.1417L26.052 35.8157L24.1089 40.1229Z"></path>
+        </svg>
+      </div><a class="number-link" href="tel: 00099999999">00099999999</a>
+    </div>
+  </div>
+</header>
+<div class="fixed-menu" data-lenis-prevent>
+  <div class="container">
+    <div class="fixed-menu__body">
+      <button class="fixed-menu__close js-close-menu">
+        <svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M21.5303 0.46967C21.8232 0.762563 21.8232 1.23744 21.5303 1.53033L1.53033 21.5303C1.23744 21.8232 0.762563 21.8232 0.46967 21.5303C0.176777 21.2374 0.176777 20.7626 0.46967 20.4697L20.4697 0.46967C20.7626 0.176777 21.2374 0.176777 21.5303 0.46967Z"></path>
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M0.469669 0.46967C0.176777 0.762563 0.176777 1.23744 0.469669 1.53033L20.4697 21.5303C20.7626 21.8232 21.2374 21.8232 21.5303 21.5303C21.8232 21.2374 21.8232 20.7626 21.5303 20.4697L1.53033 0.46967C1.23744 0.176777 0.762564 0.176777 0.469669 0.46967Z"></path>
+        </svg>
+      </button>
+      <div class="fixed-menu__body-mid" data-lenis-prevent>
+        <div class="fixed-menu__list"><a class="js-menu-item menu-item" data-target="#first" data-duration="3"><span>Комплекс</span></a><a class="js-menu-item menu-item" data-target="#second" data-duration="3"><span>Расположение</span></a><a class="js-menu-item menu-item" data-target="#third" data-duration="3"><span>Преимущества</span></a><a class="js-menu-item menu-item" data-target="#four" data-duration="3"><span>Галерея</span></a><a class="js-menu-item menu-item" data-target="#five" data-duration="3"><span>Оплата</span></a><a class="js-menu-item menu-item" data-target="#six" data-duration="3"><span>Ход строительства</span></a><a class="js-menu-item menu-item" data-target="#seven" data-duration="3"><span>Застройщик</span></a><a class="js-menu-item menu-item" data-target="#eight" data-duration="3"><span>КОНТАКТы</span></a></div>
+        <div class="fixed-menu__right">
+          <div class="fixed-menu__logo">
+            <svg width="883" height="231" viewBox="0 0 883 231" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g opacity="0.8">
+                <path d="M173.793 93.5899H157.018L130.735 153.061L63.1282 0.0863773L45.5926 39.7336L28.0147 0H11.2397L37.1839 58.7366L0 142.782H16.775L31.6063 109.224H59.4943L113.115 230.541H113.2L130.693 190.98L148.186 230.541H164.961L139.102 172.02L173.75 93.5899H173.793ZM63.1282 38.006L87.678 93.5899H69.3818L53.9589 58.6934L63.1282 38.006ZM38.5783 93.5899L45.5926 77.6532L52.6068 93.5899H38.5361H38.5783ZM113.242 192.708L76.3115 109.224H94.6077L122.369 172.02L113.242 192.708Z" fill="#967852"></path>
+                <path d="M310.764 30.832L354.531 124.006H340.486L332.399 106.059H279.729L271.501 124.006H257.846L302.003 30.832H310.764ZM327.221 94.5678L306.437 48.3886L285.085 94.5678H327.221Z" fill="white"></path>
+                <path d="M409.361 124.006L364.672 30.832H379.107L413.795 105.918L447.95 30.832H461.854L417.696 124.006H409.326H409.361Z" fill="white"></path>
+                <path d="M524.953 30.832L568.721 124.006H554.675L546.589 106.059H493.919L485.69 124.006H472.035L516.193 30.832H524.953ZM541.41 94.5678L520.626 48.3886L499.274 94.5678H541.41Z" fill="white"></path>
+                <path d="M586.951 124.006V30.832H599.365V112.124H658.1V124.006H586.951Z" fill="white"></path>
+                <path d="M702.884 123.752C696.89 122.227 691.889 119.602 687.81 115.913C683.767 112.225 680.716 107.259 678.695 101.052C676.673 94.8456 675.645 87.0072 675.645 77.5727C675.645 68.1383 676.744 59.6969 678.943 53.4191C681.142 47.1413 684.299 42.1403 688.377 38.4871C692.456 34.8339 697.493 32.3157 703.451 30.9325C709.41 29.5492 716.113 28.8398 723.562 28.8398C731.01 28.8398 737.749 29.5492 743.672 30.9325C749.63 32.3157 754.667 34.8339 758.781 38.4871C762.931 42.1403 766.088 47.1058 768.251 53.4191C770.415 59.7324 771.479 67.7836 771.479 77.5727C771.479 87.3618 770.45 94.8456 768.428 101.052C766.407 107.259 763.357 112.225 759.313 115.913C755.27 119.602 750.233 122.227 744.275 123.752C738.281 125.277 731.365 126.057 723.562 126.057C715.759 126.057 708.807 125.277 702.848 123.752H702.884ZM738.529 112.863C742.892 112.012 746.58 110.274 749.595 107.649C752.61 105.025 754.915 101.336 756.476 96.5125C758.036 91.6889 758.852 85.3756 758.852 77.5372C758.852 69.6988 758.072 62.9599 756.476 58.1008C754.88 53.2417 752.61 49.5176 749.595 46.9639C746.58 44.4102 742.892 42.7078 738.529 41.892C734.166 41.0763 729.201 40.6861 723.597 40.6861C717.993 40.6861 713.028 41.0763 708.665 41.8211C704.303 42.5659 700.614 44.2329 697.599 46.8221C694.584 49.4112 692.279 53.0999 690.718 57.959C689.158 62.8181 688.342 69.3442 688.342 77.5372C688.342 85.7303 689.122 91.6889 690.718 96.5125C692.279 101.336 694.584 105.025 697.599 107.649C700.614 110.274 704.303 112.012 708.665 112.863C713.028 113.714 717.993 114.14 723.597 114.14C729.201 114.14 734.166 113.714 738.529 112.863Z" fill="white"></path>
+                <path d="M870.696 102.264V30.832H882.862V124.006H874.775L808.734 52.7157V124.006H796.568V30.832H804.123L870.696 102.264Z" fill="white"></path>
+                <path d="M454.721 192.6C453.621 192.387 452.699 192.032 451.919 191.536C451.139 191.039 450.536 190.366 450.075 189.514C449.649 188.663 449.401 187.599 449.365 186.322H451.068C451.103 187.386 451.316 188.237 451.706 188.876C452.096 189.514 452.593 190.046 453.267 190.401C453.905 190.756 454.685 191.039 455.537 191.146C456.388 191.288 457.346 191.359 458.339 191.359C459.722 191.359 460.857 191.252 461.708 191.075C462.595 190.898 463.269 190.614 463.801 190.259C464.297 189.904 464.652 189.479 464.865 188.982C465.077 188.486 465.148 187.954 465.148 187.351C465.148 186.748 465.042 186.216 464.829 185.826C464.616 185.435 464.333 185.081 463.978 184.797C463.588 184.513 463.162 184.3 462.595 184.159C462.063 184.017 461.46 183.875 460.786 183.768L454.827 182.846C453.125 182.598 451.883 181.995 451.139 181.108C450.358 180.222 449.968 179.193 449.968 178.023C449.968 177.313 450.11 176.604 450.358 175.966C450.642 175.327 451.068 174.795 451.742 174.299C452.38 173.837 453.231 173.447 454.295 173.164C455.359 172.88 456.672 172.773 458.232 172.773C459.474 172.773 460.609 172.88 461.637 173.057C462.666 173.27 463.552 173.589 464.333 174.086C465.077 174.582 465.68 175.256 466.106 176.072C466.532 176.888 466.78 177.952 466.851 179.229H465.184C465.113 178.165 464.9 177.313 464.545 176.675C464.155 176.036 463.659 175.54 463.056 175.185C462.417 174.831 461.708 174.582 460.892 174.476C460.077 174.37 459.19 174.299 458.232 174.299C456.813 174.299 455.679 174.405 454.827 174.618C453.976 174.831 453.302 175.114 452.806 175.469C452.345 175.824 452.025 176.214 451.848 176.639C451.706 177.065 451.6 177.526 451.6 177.952C451.6 178.803 451.883 179.512 452.451 180.115C453.018 180.718 453.941 181.108 455.253 181.321L461.318 182.243C463.233 182.527 464.616 183.059 465.503 183.839C466.39 184.62 466.815 185.755 466.815 187.315C466.815 188.166 466.674 188.947 466.39 189.621C466.106 190.295 465.645 190.898 464.971 191.359C464.333 191.855 463.446 192.21 462.382 192.458C461.318 192.706 459.97 192.848 458.374 192.848C457.062 192.848 455.856 192.742 454.756 192.529L454.721 192.6Z" fill="white"></path>
+                <path d="M497.888 181.963V173.238H499.484V192.497H497.888V183.488H484.41V192.497H482.814V173.238H484.41V181.963H497.888Z" fill="white"></path>
+                <path d="M524.065 183.843L531.903 173.238H533.783L524.845 185.404V192.533H523.249V185.404L514.24 173.238H516.191L524.029 183.843H524.065Z" fill="white"></path>
+                <path d="M550.129 192.497H548.533V173.238H549.704L558.677 183.418L567.615 173.238H568.75V192.497H567.154V175.969L558.642 185.546L550.129 175.898V192.497Z" fill="white"></path>
+                <path d="M585.355 192.497V173.238H586.952V192.497H585.355ZM589.47 183.418H587.484L598.585 173.238H600.749L590.64 182.424L601.351 192.497H599.046L589.434 183.418H589.47Z" fill="white"></path>
+                <path d="M616.242 192.497V173.238H630.5V174.763H617.838V181.963H630.217V183.453H617.838V190.937H630.5V192.462H616.242V192.497Z" fill="white"></path>
+                <path d="M662.369 189.766V173.238H663.929V192.497H662.794L647.969 176.005V192.497H646.408V173.238H647.437L662.333 189.766H662.369Z" fill="white"></path>
+                <path d="M688.662 174.763V192.497H687.066V174.763H678.873V173.238H696.891V174.763H688.698H688.662Z" fill="white"></path>
+              </g>
+            </svg>
+          </div>
+          <div class="fixed-menu__info">
+            <div class="inf-item">
+              <div class="inf-item__title">Телефон</div><a class="inf-item__link" href="tel: 00099999999">00099999999</a>
+            </div>
+            <div class="inf-item">
+              <div class="inf-item__title">E-mail</div><a class="inf-item__link" href="mailto: infotest@test.grgr">infotest@test.grgr</a>
+            </div>
+            <div class="inf-item">
+              <div class="inf-item__title">Адрес отдела продаж</div>
+              <div class="inf-item__link">Address here</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <section class="section section--top" style="background-image: url(content/images/pics/top-back.jpg)">
+      <picture class="section__img">
+        <source media="(min-width: 640px)" srcset="content/images/pics/top-back.jpg"><img src="content/images/pics/top-back.jpg">
+      </picture>
+      <div class="inner-block">
+        <div class="inner-block__body">
+          <div class="title title--section-second title--white title--ttu">Спасибо за Вашу заявку!</div>
+          <div class="simple-text simple-text--white simple-text--medium">Мы свяжемся с Вами в ближайшее, рабочее время</div><a class="button-blur" href="/">
+            <div class="button-blur__text">На главную</div>
+            <div class="button-blur__svg">
+              <svg width="100px" height="100px" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <circle cx="50" cy="50" r="48" fill="none"></circle>
+                <circle cx="50" cy="50" r="48" fill="none"></circle>
+                <circle cx="50" cy="50" r="48" fill="none"></circle>
+              </svg>
+            </div></a>
+        </div>
+      </div>
+    </section>
+<div class="popups-wrapper js-popup-wrap js-init" data-modal>
+  <div class="popups-wrapper__background js-close-popup"></div>
+  <div class="popup-item" data-id="#consult">
+    <div class="close-popup js-close-popup">
+      <svg width="34" height="34" viewBox="0 0 34 34" xmlns="http://www.w3.org/2000/svg">
+        <rect x="0.5" y="0.5" width="33" height="33" rx="16.5" stroke="#D9D9D9"></rect>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M23.7071 11.0001L11 23.7072L10.2928 23.0001L23 10.293L23.7071 11.0001Z"></path>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.2929 11.0001L23 23.7072L23.7072 23.0001L11 10.293L10.2929 11.0001Z"></path>
+      </svg>
+    </div>
+    <div class="popup-item__body">
+      <div class="popup-item__top">
+        <h2 class="title title--section-second title--ttu title--black"><span>ЗАпись на просмотр</span></h2>
+      </div>
+      <form class="popup-form">
+        <div class="popup-form__inputs">
+          <input class="popup-form__input" type="text" name="name" placeholder="Ім’я" autocomplete="off" required>
+          <input class="popup-form__input js-phone-number" type="tel" name="phone" placeholder="Телефон" autocomplete="off" required>
+        </div>
+        <button class="button-blur dark button-blur--medium">
+          <div class="button-blur__text">Оставить заявку</div>
+          <div class="button-blur__svg">
+            <svg width="100px" height="100px" viewBox="0 0 100 100" preserveAspectRatio="none">
+              <circle cx="50" cy="50" r="48" fill="none"></circle>
+              <circle cx="50" cy="50" r="48" fill="none"></circle>
+              <circle cx="50" cy="50" r="48" fill="none"></circle>
+            </svg>
+          </div>
+        </button>
+      </form>
+    </div>
+    <div class="popup-item__bottom">Avalon</div>
+  </div>
+  <div class="popup-item" data-id="#consult-two">
+    <div class="close-popup js-close-popup">
+      <svg width="34" height="34" viewBox="0 0 34 34" xmlns="http://www.w3.org/2000/svg">
+        <rect x="0.5" y="0.5" width="33" height="33" rx="16.5" stroke="#D9D9D9"></rect>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M23.7071 11.0001L11 23.7072L10.2928 23.0001L23 10.293L23.7071 11.0001Z"></path>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.2929 11.0001L23 23.7072L23.7072 23.0001L11 10.293L10.2929 11.0001Z"></path>
+      </svg>
+    </div>
+    <div class="popup-item__body">
+      <div class="popup-item__top">
+        <h2 class="title title--section-second title--ttu title--black"><span>Консультация</span></h2>
+      </div>
+      <form class="popup-form">
+        <div class="popup-form__inputs">
+          <input class="popup-form__input" type="text" name="name" placeholder="Ім’я" autocomplete="off" required>
+          <input class="popup-form__input js-phone-number" type="tel" name="phone" placeholder="Телефон" autocomplete="off" required>
+        </div>
+        <button class="button-blur dark button-blur--medium">
+          <div class="button-blur__text">Оставить заявку</div>
+          <div class="button-blur__svg">
+            <svg width="100px" height="100px" viewBox="0 0 100 100" preserveAspectRatio="none">
+              <circle cx="50" cy="50" r="48" fill="none"></circle>
+              <circle cx="50" cy="50" r="48" fill="none"></circle>
+              <circle cx="50" cy="50" r="48" fill="none"></circle>
+            </svg>
+          </div>
+        </button>
+      </form>
+    </div>
+    <div class="popup-item__bottom">Avalon</div>
+  </div>
+  <div class="popup-item popup-item--video" data-id="#video">
+    <div class="close-popup js-close-popup">
+      <svg width="34" height="34" viewBox="0 0 34 34" xmlns="http://www.w3.org/2000/svg">
+        <rect x="0.5" y="0.5" width="33" height="33" rx="16.5" stroke="#D9D9D9"></rect>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M23.7071 11.0001L11 23.7072L10.2928 23.0001L23 10.293L23.7071 11.0001Z"></path>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.2929 11.0001L23 23.7072L23.7072 23.0001L11 10.293L10.2929 11.0001Z"></path>
+      </svg>
+    </div>
+    <div class="video-popop" id="ytplayer">
+      <iframe class="utubr" width="560" height="315" src=""></iframe>
+    </div>
+  </div>
+</div>
+<footer class="footer">
+  <div class="footer__wrap">
+    <div class="container">
+      <div class="footer__img">
+        <picture>
+          <source media="(min-width: 640px)" srcset="content/images/pics/footer-desk.png"><img src="content/images/pics/map-mpb.svg">
+        </picture>
+      </div>
+      <div class="footer__body-wrap">
+        <div class="footer__top">
+          <svg width="112" height="77" viewBox="0 0 112 77" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="top-lg" d="M71.8585 16.6966H68.8658L64.177 27.3063L52.1157 0.0154099L48.9873 7.08855L45.8514 0H42.8587L47.4872 10.4787L40.8535 25.4726H43.8462L46.4921 19.4858H51.4674L61.0335 41.129H61.0486L64.1694 34.0713L67.2903 41.129H70.283L65.6695 30.6888L71.8509 16.6966H71.8585ZM52.1157 6.78035L56.4954 16.6966H53.2314L50.4799 10.471L52.1157 6.78035ZM47.736 16.6966L48.9873 13.8535L50.2387 16.6966H47.7284H47.736ZM61.0561 34.3795L54.4676 19.4858H57.7317L62.6844 30.6888L61.0561 34.3795Z" fill="#967852"></path>
+            <path d="M9.79811 48.0977L17.6063 64.7201H15.1006L13.6579 61.5184H4.26151L2.79352 64.7201H0.357422L8.23521 48.0977H9.79811ZM12.7341 59.4682L9.02615 51.2298L5.21697 59.4682H12.7341Z" fill="white"></path>
+            <path d="M27.3887 64.7201L19.416 48.0977H21.9913L28.1797 61.4931L34.2731 48.0977H36.7535L28.8757 64.7201H27.3824H27.3887Z" fill="white"></path>
+            <path d="M48.009 48.0977L55.8172 64.7201H53.3115L51.8688 61.5184H42.4724L41.0045 64.7201H38.5684L46.4461 48.0977H48.009ZM50.945 59.4682L47.2371 51.2298L43.4279 59.4682H50.945Z" fill="white"></path>
+            <path d="M59.0703 64.7201V48.0977H61.285V62.6004H71.7634V64.7201H59.0703Z" fill="white"></path>
+            <path d="M79.7541 64.6747C78.6847 64.4026 77.7925 63.9344 77.0649 63.2763C76.3435 62.6182 75.7994 61.7324 75.4387 60.6251C75.078 59.5177 74.8945 58.1194 74.8945 56.4362C74.8945 54.7531 75.0907 53.2471 75.483 52.1272C75.8753 51.0072 76.4384 50.115 77.1661 49.4633C77.8938 48.8115 78.7923 48.3623 79.8553 48.1155C80.9183 47.8687 82.1142 47.7422 83.443 47.7422C84.7718 47.7422 85.974 47.8687 87.0307 48.1155C88.0938 48.3623 88.9923 48.8115 89.7263 49.4633C90.4666 50.115 91.0298 51.0009 91.4157 52.1272C91.8017 53.2535 91.9915 54.6898 91.9915 56.4362C91.9915 58.1826 91.808 59.5177 91.4474 60.6251C91.0867 61.7324 90.5425 62.6182 89.8212 63.2763C89.0999 63.9344 88.2013 64.4026 87.1383 64.6747C86.069 64.9468 84.8351 65.086 83.443 65.086C82.051 65.086 80.8108 64.9468 79.7478 64.6747H79.7541ZM86.1133 62.7321C86.8915 62.5803 87.5496 62.2702 88.0874 61.802C88.6253 61.3337 89.0366 60.6757 89.315 59.8151C89.5934 58.9546 89.7389 57.8283 89.7389 56.4299C89.7389 55.0315 89.5997 53.8293 89.315 52.9624C89.0302 52.0955 88.6253 51.4311 88.0874 50.9756C87.5496 50.52 86.8915 50.2163 86.1133 50.0707C85.335 49.9252 84.4491 49.8556 83.4494 49.8556C82.4496 49.8556 81.5638 49.9252 80.7855 50.0581C80.0072 50.1909 79.3491 50.4883 78.8113 50.9502C78.2734 51.4122 77.8621 52.0702 77.5837 52.9371C77.3053 53.804 77.1598 54.9682 77.1598 56.4299C77.1598 57.8916 77.299 58.9546 77.5837 59.8151C77.8621 60.6757 78.2734 61.3337 78.8113 61.802C79.3491 62.2702 80.0072 62.5803 80.7855 62.7321C81.5638 62.884 82.4496 62.9599 83.4494 62.9599C84.4491 62.9599 85.335 62.884 86.1133 62.7321Z" fill="white"></path>
+            <path d="M109.689 60.8413V48.0977H111.86V64.7201H110.417L98.6352 52.0017V64.7201H96.4648V48.0977H97.8126L109.689 60.8413Z" fill="white"></path>
+            <path d="M35.4808 76.9551C35.2847 76.9171 35.1202 76.8538 34.981 76.7652C34.8418 76.6767 34.7342 76.5564 34.6519 76.4046C34.576 76.2527 34.5317 76.0629 34.5254 75.8351H34.8291C34.8354 76.0249 34.8734 76.1768 34.943 76.2907C35.0126 76.4046 35.1012 76.4995 35.2214 76.5628C35.3353 76.626 35.4745 76.6767 35.6264 76.6956C35.7782 76.7209 35.9491 76.7336 36.1263 76.7336C36.373 76.7336 36.5755 76.7146 36.7274 76.683C36.8856 76.6513 37.0058 76.6007 37.1007 76.5374C37.1893 76.4742 37.2526 76.3982 37.2905 76.3097C37.3285 76.2211 37.3411 76.1262 37.3411 76.0186C37.3411 75.911 37.3222 75.8161 37.2842 75.7465C37.2462 75.6769 37.1956 75.6136 37.1323 75.563C37.0627 75.5124 36.9868 75.4744 36.8856 75.4491C36.7906 75.4238 36.6831 75.3985 36.5629 75.3795L35.4998 75.215C35.1961 75.1707 34.9746 75.0631 34.8418 74.9049C34.7026 74.7468 34.633 74.5633 34.633 74.3544C34.633 74.2279 34.6583 74.1013 34.7026 73.9874C34.7532 73.8736 34.8291 73.7786 34.9493 73.6901C35.0632 73.6078 35.2151 73.5382 35.4049 73.4876C35.5947 73.437 35.8289 73.418 36.1073 73.418C36.3287 73.418 36.5312 73.437 36.7147 73.4686C36.8982 73.5066 37.0564 73.5635 37.1956 73.6521C37.3285 73.7407 37.4361 73.8609 37.512 74.0064C37.5879 74.152 37.6322 74.3418 37.6449 74.5696H37.3475C37.3348 74.3798 37.2969 74.2279 37.2336 74.114C37.164 74.0001 37.0754 73.9115 36.9678 73.8482C36.8539 73.785 36.7274 73.7407 36.5818 73.7217C36.4363 73.7027 36.2781 73.6901 36.1073 73.6901C35.8542 73.6901 35.6517 73.709 35.4998 73.747C35.348 73.785 35.2277 73.8356 35.1392 73.8989C35.0569 73.9621 35 74.0317 34.9683 74.1077C34.943 74.1836 34.924 74.2659 34.924 74.3418C34.924 74.4936 34.9746 74.6202 35.0759 74.7278C35.1771 74.8353 35.3416 74.9049 35.5758 74.9429L36.6578 75.1074C36.9995 75.158 37.2462 75.253 37.4044 75.3922C37.5626 75.5314 37.6385 75.7338 37.6385 76.0123C37.6385 76.1641 37.6132 76.3033 37.5626 76.4235C37.512 76.5438 37.4297 76.6513 37.3095 76.7336C37.1956 76.8222 37.0374 76.8855 36.8476 76.9298C36.6578 76.974 36.4173 76.9994 36.1326 76.9994C35.8985 76.9994 35.6833 76.9804 35.4872 76.9424L35.4808 76.9551Z" fill="white"></path>
+            <path d="M43.1814 75.0566V73.5H43.4661V76.9358H43.1814V75.3287H40.7769V76.9358H40.4922V73.5H40.7769V75.0566H43.1814Z" fill="white"></path>
+            <path d="M47.8504 75.3919L49.2488 73.5H49.5841L47.9896 75.6703V76.9422H47.7049V75.6703L46.0977 73.5H46.4457L47.8441 75.3919H47.8504Z" fill="white"></path>
+            <path d="M52.5015 76.9358H52.2168V73.5H52.4256L54.0265 75.316L55.621 73.5H55.8235V76.9358H55.5388V73.9872L54.0201 75.6957L52.5015 73.9746V76.9358Z" fill="white"></path>
+            <path d="M58.7852 76.9358V73.5H59.0699V76.9358H58.7852ZM59.5192 75.316H59.1648L61.1453 73.5H61.5313L59.728 75.1388L61.6389 76.9358H61.2276L59.5128 75.316H59.5192Z" fill="white"></path>
+            <path d="M64.2969 76.9358V73.5H66.8405V73.7721H64.5816V75.0566H66.7899V75.3223H64.5816V76.6574H66.8405V76.9295H64.2969V76.9358Z" fill="white"></path>
+            <path d="M72.5271 76.4486V73.5H72.8055V76.9358H72.603L69.9581 73.9935V76.9358H69.6797V73.5H69.8632L72.5208 76.4486H72.5271Z" fill="white"></path>
+            <path d="M77.2171 73.7721V76.9358H76.9324V73.7721H75.4707V73.5H78.6851V73.7721H77.2234H77.2171Z" fill="white"></path>
+          </svg>
+        </div>
+        <div class="footer__body">
+          <div class="title title--section-second title--white title--ttu">Контакты</div>
+          <div class="footer__info">
+            <div class="inf-item">
+              <div class="inf-item__title">Телефон</div><a class="inf-item__link" href="tel: 00099999999">00099999999</a>
+            </div>
+            <div class="inf-item">
+              <div class="inf-item__title">E-mail</div><a class="inf-item__link" href="mailto: infotest@test.grgr">infotest@test.grgr</a>
+            </div>
+            <div class="inf-item">
+              <div class="inf-item__title">Адрес отдела продаж</div>
+              <div class="inf-item__link">address here</div>
+            </div>
+            <div class="inf-item">
+              <div class="inf-item__title">График работы</div>
+              <div class="inf-item__schedule">
+                <div class="inf-item__schedule-text">ПН-ВС</div>
+                <div class="inf-item__link">09:00 - 19:00</div>
+              </div>
+            </div>
+          </div>
+          <form class="form-block form-block--light">
+            <div class="form-block__left">
+              <div class="form-block__titles">
+                <div class="simple-text simple-text--white">Заполните форму и на ваш номер WhatsApp отправим презентациюс планировками ЖК AVALON</div>
+              </div>
+              <div class="form-block__inputs">
+                <input class="form-block__input" type="text" name="name" placeholder="Имя" autocomplete="off" required>
+                <input class="form-block__input js-phone-number" type="tel" name="phone" placeholder="+7" autocomplete="off" required>
+              </div>
+            </div>
+            <div class="form-block__button">
+              <button class="button-blur button-blur--medium white">
+                <div class="button-blur__text">Получить презентацию</div>
+                <div class="button-blur__svg">
+                  <svg width="100px" height="100px" viewBox="0 0 100 100" preserveAspectRatio="none">
+                    <circle cx="50" cy="50" r="48" fill="none"></circle>
+                    <circle cx="50" cy="50" r="48" fill="none"></circle>
+                    <circle cx="50" cy="50" r="48" fill="none"></circle>
+                  </svg>
+                </div>
+              </button>
+            </div>
+          </form>
+        </div>
+        <button class="to-top">
+          <div class="to-top__text">Наверх</div>
+          <div class="to-top__icon">
+            <svg width="42" height="42" viewBox="0 0 42 42" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M40.5 21C40.5 10.2304 31.7696 1.5 21 1.5C10.2304 1.5 1.5 10.2304 1.5 21C1.5 31.7696 10.2304 40.5 21 40.5C31.7696 40.5 40.5 31.7696 40.5 21ZM21 0.499999C32.3218 0.5 41.5 9.67816 41.5 21C41.5 32.3218 32.3218 41.5 21 41.5C9.67816 41.5 0.499999 32.3218 0.499999 21C0.5 9.67816 9.67816 0.499999 21 0.499999Z"></path>
+              <path d="M21 13L20.6464 12.6464L21 12.2929L21.3536 12.6464L21 13ZM21.5 28C21.5 28.2761 21.2761 28.5 21 28.5C20.7239 28.5 20.5 28.2761 20.5 28L21.5 28ZM14.6464 18.6464L20.6464 12.6464L21.3536 13.3536L15.3536 19.3536L14.6464 18.6464ZM21.3536 12.6464L27.3535 18.6464L26.6464 19.3536L20.6464 13.3536L21.3536 12.6464ZM21.5 13L21.5 28L20.5 28L20.5 13L21.5 13Z"></path>
+            </svg>
+          </div>
+        </button>
+        <div class="footer__bottom">
+          <div class="footer__bottom-left"><a class="footer-link" href="#">Privacy Policy</a><a class="footer-link" href="#">Terms and Conditions</a></div><a class="develop" href="https://adart.digital/?utm_source=clients&amp;utm_medium=websites&amp;utm_campaign=logo&amp;utm_content=kz&amp;utm_term=avalon" target="_blank">
+            <div class="develop__text">powered by</div>
+            <div class="develop__icon"><img src="content/images/icons/adart.svg" width="92" height="13"></div></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+  <script type="text/javascript" src="scripts//vendors.js"></script><script type="text/javascript" src="scripts//app.js"></script></body>
+</html>
